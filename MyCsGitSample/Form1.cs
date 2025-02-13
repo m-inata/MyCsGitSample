@@ -16,5 +16,12 @@ namespace MyCsGitSample
         {
             InitializeComponent();
         }
+
+        private void countupButton_Click(object sender, EventArgs e)
+        {
+            int count = int.Parse(countLabel.Text);
+            count++;
+            countLabel.Text = count.ToString();
+        }
     }
 }

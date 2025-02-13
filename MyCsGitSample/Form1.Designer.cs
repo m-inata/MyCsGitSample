@@ -41,6 +41,7 @@
             this.countupButton.TabIndex = 0;
             this.countupButton.Text = "CountUp!";
             this.countupButton.UseVisualStyleBackColor = true;
+            this.countupButton.Click += new System.EventHandler(this.countupButton_Click);
             // 
             // countLabel
             // 
